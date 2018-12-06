@@ -41,12 +41,12 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    await pipe(readableStream, writableStream, toString, toUpperCase, crypt);
    ```
 
-   6 It will resolve in the `writableStream`, use it to close the output stream:
+   6 It will resolve in the `writableStream` You could use it to close the output stream:
    
    ```js
    // pipe(inputStream, outupStream [, ...modifiers]);
-   const outputStream = await pipe(readableStream, writableStream, toString, toUpperCase, crypt))
-   outputStream.end();
+   const outputStream = await pipe(readableStream, writableStream, toString, toUpperCase, crypt).
+   outputStream.end(); // same as writableStream.end()
    ```
    
    
