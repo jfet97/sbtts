@@ -1,5 +1,5 @@
 # sbtts
-something-better-than-transform-streams (Node v10 minimum)
+something-better-than-transform-streams (Maybe) - Node v10 minimum
 
 
 # how to
