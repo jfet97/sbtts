@@ -20,7 +20,7 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    ```
    like for example:
    ```js
-   const readableStream = require('fs').createWriteStream('write.txt');
+   const writableStream = require('fs').createWriteStream('write.txt');
    ```
 
    3 Create one or more functions to modify each chunk asynchronously:
