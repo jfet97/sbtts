@@ -32,7 +32,7 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
 
    4 Import my pipe function:
    ```js
-   const { pipe } = require('sbtts');
+   const { pipe } = require('./sbtts');
    ```
 
    5 Use it:
@@ -42,4 +42,9 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    ```
 
    6 It will resolve in the `writableStream`, use it if you need.
+   
+   
+ # why
+ 
+ It seems alittle faster than transform streams and it is simpler. I've tested it against them using Benchmark.js.
 
