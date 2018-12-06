@@ -46,5 +46,6 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    
  # why
  
- It seems alittle faster than transform streams and it is simpler. I've tested it against them using Benchmark.js.
+ It seems a bit faster than transform streams and it is simpler. I've tested it against them using Benchmark.js.
+ Obviously my API is not as powerful as transform streams, but it could become. (I'm a dreamer).
 
