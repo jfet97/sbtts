@@ -23,7 +23,7 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    const readableStream = require('fs').createWriteStream('write.txt');
    ```
 
-   3 Create one or more functions to modify each chunk asynchronoulsy:
+   3 Create one or more functions to modify each chunk asynchronously:
    ```js
    const toString = chunk => chunk.toString();
    const toUpperCase = string => string.toUpperCase();
