@@ -3,7 +3,7 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
 
 
 # how to
-1) Create a readable stream
+   1) Create a readable stream
    ```js
    const readableStream = ...
    ```
