@@ -45,7 +45,7 @@ something-better-than-transform-streams (Maybe) - Node v10 minimum
    
    ```js
    // pipe(inputStream, outupStream [, ...modifiers]);
-   const outputStream = await pipe(readableStream, writableStream, toString, toUpperCase, crypt).
+   const outputStream = await pipe(readableStream, writableStream, toString, toUpperCase, crypt);
    outputStream.end(); // same as writableStream.end()
    ```
    
