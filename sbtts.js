@@ -8,7 +8,7 @@ const pipe = function () {
         const pipedFunctions = modifiers.length ? functionalPipe(modifiers) : null;
 
         for await (const chunk of inputStream) {
-            if (pipedFunctions) outputStream.write(pipedFunctions(chunk));
+            if (pipedFunctions) outputStream.write(await pipedFunctions(chunk));
             else outputStream.write(chunk);
         }
         
